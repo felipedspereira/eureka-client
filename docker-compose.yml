@@ -1,0 +1,10 @@
+version: '3'
+services: 
+  webtest:
+    image: webtest
+    networks:
+      - webtest-network-2
+      
+networks:
+  webtest-network-2:
+    driver: bridge

@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active:
+    - default
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://transito-eureka.desenvolvimento.am.gov.br/eureka/
+    

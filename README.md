@@ -15,4 +15,6 @@ Just run `docker-compose up -d` to start the app
 Ps: it requires docker-compose installed in the target machine.
 
 
+## Available Endpoints
 
+* http://<HOST>:8888/ola (just prints a string)

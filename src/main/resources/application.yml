@@ -9,5 +9,5 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://transito-eureka.desenvolvimento.am.gov.br/eureka/
+      defaultZone: http://localhost:8761/eureka/
     

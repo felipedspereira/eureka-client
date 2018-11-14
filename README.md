@@ -17,4 +17,4 @@ Ps: it requires docker-compose installed in the target machine.
 
 ## Available Endpoints
 
-* http://<HOST>:8888/ola (just prints a string)
+* `http://<HOST>:8888/ola` (just prints a string)
